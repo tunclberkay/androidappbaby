@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff7a"
+    tools:context=".ay1oyuncak">
+
+
+    <include layout="@layout/toolbar">
+
+    </include>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:layout_marginTop="35dp"
+                app:srcCompat="@drawable/kyc" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="10dp"
+                android:text="HAKKIMDA"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@drawable/kutu4"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:text=" 1976 yılında Kırıkkale’de doğdum. İlk ve orta öğrenimimi burada gördükten sonra lise eğitimimi Kayseri Fen Lisesinde tamamladım. İnsana ve çocuklara duyduğum sevgi, merhamet hissi, Tıp eğitimi almama neden oldu. Ankara Üniversitesi Tıp Fakültesinde eğitimimi tamamladıktan sonra hayalim olan Çocuk Sağlığı ve Hastalıkları ihtisası için 2000-2005 yılları arasında Kırıkkale ilinde bulundum. Ve 2005 yılında, hasta çocuklarımın sağlıklarına yeniden kavuşabilmelerine yardımcı olmaya hazırdım. O tarihten itibaren değişik hastanelerde çalıştım. Yenidoğan bebeklere olan ilgimden dolayı çalıştığım hastanelerin hepsinde Yenidoğan yoğunbakım ve bebek ünitesi sorumlu hekimi oldum. Bu sayede binlerce miniğin doğumuna, doğumdan sonra geçirdikleri sıkıntılı süreçlere, sağlıklarına kavuşup aileleri ile buluşmalarına şahitlik ettim. Mesleki hayatım boyunca Yenidoğan yoğun bakım ve çocuk yoğun bakım ile ilgili birçok kongreye katıldım. Antalya ili içerisinde çocuklu ailelere yönelik yenidoğan bebek bakımı ve çocuklara yapılacak ilk yardım konusunda kurslar düzenledim. Antalya'da değişik hastanelerde çalıştıktan sonra, sunmuş olduğum hizmetin kalitesini daha yükseltebilmek, ailelerimle ve çocuklarımla özel bir ortamda, daha uzun zaman geçirebilmek için kendi ofisimde çalışmaya karar verdim.\n\n Naz isminde, dünyalar tatlısı, yaşam enerjimin kaynağı, her çocukta kendisini gördüğüm bir kızım ve kendisine her daim müteşekkir olduğum hayat arkadaşım Ayla ile 2010 yılından bu yana Antalya’da yaşıyoruz. "
+                android:layout_marginBottom="40dp"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/blue"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation"
+        tools:ignore="MİssingConstration" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
