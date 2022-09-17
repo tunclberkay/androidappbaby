@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/kutu.xml" value="0.164" />
+        <entry key="app/src/main/res/drawable/kutu4.xml" value="0.23" />
+        <entry key="app/src/main/res/drawable/selector.xml" value="0.1485" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.1648148148148148" />
+        <entry key="app/src/main/res/layout/activity_ay10dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay11dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay12dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay1asi.xml" value="0.34375" />
+        <entry key="app/src/main/res/layout/activity_ay1beslenme.xml" value="0.34375" />
+        <entry key="app/src/main/res/layout/activity_ay1dashbourd.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/layout/activity_ay1oyuncak.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_ay2dashbourd.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/layout/activity_ay2oyuncak.xml" value="0.223731884057971" />
+        <entry key="app/src/main/res/layout/activity_ay3dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay4dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay5dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay6dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay7dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay8dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay9dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_dashbourd.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_dashbourd2.xml" value="0.1648148148148148" />
+        <entry key="app/src/main/res/layout/activity_ekgida.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout/activity_hakkimda.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_iletisim.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_whitesound.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.34375" />
+        <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
