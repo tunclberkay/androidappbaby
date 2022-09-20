@@ -14,6 +14,96 @@
         android:theme="@style/Theme.Dralpclass"
         tools:targetApi="31">
         <activity
+            android:name=".ay12beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay12oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay12asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay11oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay11beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay11asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay10oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay10beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay10asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay9oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay9asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay9beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay8beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay8oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay8asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay7beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay7oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay7asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay6oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay6beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay6asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay5beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay5oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay5asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay4oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay4beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ay4asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay3oyuncak"
+            android:exported="false" />
+        <activity
+            android:name=".ay3asi"
+            android:exported="false" />
+        <activity
+            android:name=".ay3beslenme"
+            android:exported="false" />
+        <activity
             android:name=".ay2asi"
             android:exported="false" />
         <activity
