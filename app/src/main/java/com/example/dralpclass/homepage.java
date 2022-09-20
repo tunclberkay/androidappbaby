@@ -55,4 +55,56 @@ public class homepage extends AppCompatActivity {
         startActivity(ıntent);
 
     }
+    public void foto2(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay2dashbourd.class);
+        startActivity(ıntent);
+
+    }
+    public void foto3(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay3dashbourd.class);
+        startActivity(ıntent);
+    }
+    public void foto4(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay1dashbourd.class);
+        startActivity(ıntent);
+
+    }
+    public void foto5(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay1dashbourd.class);
+        startActivity(ıntent);
+
+    }
+    public void foto6(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay1dashbourd.class);
+        startActivity(ıntent);
+
+    }
+    public void foto7(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay7dashbourd.class);
+        startActivity(ıntent);
+
+    }
+    public void foto8(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay8dashbourd.class);
+        startActivity(ıntent);
+    }
+    public void foto9(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay9dashbourd.class);
+        startActivity(ıntent);
+    }
+    public void foto10(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay10dashbourd.class);
+        startActivity(ıntent);
+    }
+    public void foto11(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay11dashbourd.class);
+        startActivity(ıntent);
+    }
+    public void foto12(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay12dashbourd.class);
+        startActivity(ıntent);
+
+
+
+    }
 }
