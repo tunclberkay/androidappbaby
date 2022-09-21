@@ -46,10 +46,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textColor="@color/black"
-                android:fontFamily="sans-serif-black"
-                android:text="Bu ay oyuncak almak için erken diye düşünebilirsiniz. Ama yatağımın üzerine takacağınız bir dönence hem çok hoşuma gidecek hem de nörolojik gelişimimi hızlandıracaktır. Dönence seçerken ışıklı olmayan, kumaş veya örme bir dönence seçmeniz yerinde olacaktır. Dönenceyi asarken ona ulaşamamam için en ez 15-20 cm uzağa asmanız yerinde olacaktır. "
                 android:layout_marginBottom="40dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Birinci ayım dolduğunda doğumda yapılan hepatit B aşımın 2. dozu yapılacak. Hepatit B aşımın son dozu ise 6. ayda yapılacak. Genellikle hepatit B aşısı ateş yapmaz. "
+                android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>
 

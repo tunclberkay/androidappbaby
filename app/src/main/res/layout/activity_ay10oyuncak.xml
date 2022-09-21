@@ -4,6 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffff7a"
     tools:context=".ay10oyuncak">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar">
+
+    </include>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_marginTop="35dp"
+                android:layout_height="303dp"
+                app:srcCompat="@drawable/toys" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kutu4"
+                android:fontFamily="sans-serif-black"
+                android:text="OYUNCAKLAR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Bu ay oyuncak almak için erken diye düşünebilirsiniz. Ama yatağımın üzerine takacağınız bir dönence hem çok hoşuma gidecek hem de nörolojik gelişimimi hızlandıracaktır. Dönence seçerken ışıklı olmayan, kumaş veya örme bir dönence seçmeniz yerinde olacaktır. Dönenceyi asarken ona ulaşamamam için en ez 15-20 cm uzağa asmanız yerinde olacaktır. "
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/blue"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation"
+        tools:ignore="MİssingConstration" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

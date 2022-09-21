@@ -4,6 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffff7a"
     tools:context=".ay9beslenme">
+
+    <include layout="@layout/toolbar">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_marginTop="35dp"
+                android:layout_height="303dp"
+                app:srcCompat="@drawable/baby" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="BESLENME"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@drawable/kutu4"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="fill"
+                android:text="Bu ay için yaklaşık her 2-3 saate bir  beslenirim. Unutmayın, benim için en iyi besin anne sütüdür.  Lütfen hayvan sütleri veya bitkisel sütler kullanmayın. Formül sütler anne sütüne yaklaştırılmaya çalışılan besinlerdir. Mama yerine pirinç unu gibi tahıl veya katı gıdalar vermeyin veya bunları mamamın içerisine katmayın. Altı aylık oluncaya dek vücudum katı veya sıvı ek gıdalar ile beslenmeye hazır değildir. Ek gıdalara erken başlamak allerjiye, sindirim sitemimde, böbreklerimde bozukluklara veya gereğinden fazla beslenmeme neden olabilir. Bazen beslenmem size yetersiz gibi gelebilir fakat yeterli kilo alımım oluyorsa bu iyi beslendiğim anlamına gelir. Benim mide kapasitem gerçekten çok düşüktür. Doğumumun 1. Gününde bir kiraz kadar iken, 3. Günde bir ceviz kadar, 1. Haftada bir kayısı 1 aylık olunca 1 yumurta kadardır. Eğer beni çok fazla beslerseniz bu kusmama veya kabız olmama neden olabilir. Doktorum bu dönemde de D vitaminimi kullanmaya devam etmenizi önerecektir."
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/blue"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation"
+        tools:ignore="MİssingConstration" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

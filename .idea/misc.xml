@@ -9,23 +9,54 @@
         <entry key="app/src/main/res/drawable/kutu4.xml" value="0.23" />
         <entry key="app/src/main/res/drawable/selector.xml" value="0.1485" />
         <entry key="app/src/main/res/layout/activity_about.xml" value="0.1648148148148148" />
+        <entry key="app/src/main/res/layout/activity_ay10asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay10beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay10dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay10oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay11asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay11beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay11dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay11oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay12asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay12beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay12dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay12oyuncak.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay1asi.xml" value="0.34375" />
         <entry key="app/src/main/res/layout/activity_ay1beslenme.xml" value="0.34375" />
-        <entry key="app/src/main/res/layout/activity_ay1dashbourd.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/layout/activity_ay1dashbourd.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_ay1oyuncak.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_ay2asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay2beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay2dashbourd.xml" value="0.2916666666666667" />
         <entry key="app/src/main/res/layout/activity_ay2oyuncak.xml" value="0.223731884057971" />
+        <entry key="app/src/main/res/layout/activity_ay3asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay3beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay3dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay3oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay4asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay4beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay4dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay4oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay5asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay5beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay5dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay5oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay6asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay6beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay6dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay6oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay7asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay7beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay7dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay7oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay8asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay8beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay8dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay8oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay9asi.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay9beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay9dashbourd.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_ay9oyuncak.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_dashbourd.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/activity_dashbourd2.xml" value="0.1648148148148148" />
         <entry key="app/src/main/res/layout/activity_ekgida.xml" value="0.23958333333333334" />
