@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -50,6 +51,18 @@ public class ay11dashbourd extends AppCompatActivity {
         });
 
 
+    }
+    public void foto2(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay11oyuncak.class);
+        startActivity(ıntent);
+    }
+    public void foto3(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay11asi.class);
+        startActivity(ıntent);
 
+    }
+    public void foto5(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay11beslenme.class);
+        startActivity(ıntent);
     }
 }

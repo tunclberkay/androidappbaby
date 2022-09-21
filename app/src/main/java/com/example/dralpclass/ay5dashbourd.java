@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -26,21 +27,21 @@ public class ay5dashbourd extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
-                switch (menuItem.getItemId()){
+                switch (menuItem.getItemId()) {
                     case R.id.dashbourd:
                         startActivity(new Intent(getApplicationContext()
-                                ,Dashbourd.class));
-                        overridePendingTransition(0,0);
+                                , Dashbourd.class));
+                        overridePendingTransition(0, 0);
                         return true;
                     case R.id.home:
                         startActivity(new Intent(getApplicationContext()
-                                ,MainActivity.class));
-                        overridePendingTransition(0,0);
+                                , MainActivity.class));
+                        overridePendingTransition(0, 0);
                         return true;
                     case R.id.about:
                         startActivity(new Intent(getApplicationContext()
-                                ,Dashbourd2.class));
-                        overridePendingTransition(0,0);
+                                , Dashbourd2.class));
+                        overridePendingTransition(0, 0);
                         return true;
 
 
@@ -49,6 +50,18 @@ public class ay5dashbourd extends AppCompatActivity {
             }
         });
 
+    }
+    public void foto2(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay5oyuncak.class);
+        startActivity(ıntent);
+    }
+    public void foto3(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay5asi.class);
+        startActivity(ıntent);
 
+    }
+    public void foto5(View view){
+        Intent ıntent = new Intent(getApplicationContext(), ay5beslenme.class);
+        startActivity(ıntent);
     }
 }
