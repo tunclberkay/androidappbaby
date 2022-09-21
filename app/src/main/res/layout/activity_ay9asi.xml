@@ -48,7 +48,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Birinci ayım dolduğunda doğumda yapılan hepatit B aşımın 2. dozu yapılacak. Hepatit B aşımın son dozu ise 6. ayda yapılacak. Genellikle hepatit B aşısı ateş yapmaz. "
+                android:text="Şu an (2020 yılı) aşı şemasında 9-12. ay arasında 1 doz kızamık aşısı ve 12. Ayda tek doz KKK aşısı yapılıyor. Doktorunuzun ayarladığı özel aşı takviminde bu aya Meningokok aşısı denk geliyorsa, doktorunuz aşınızı yapacaktır."
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>

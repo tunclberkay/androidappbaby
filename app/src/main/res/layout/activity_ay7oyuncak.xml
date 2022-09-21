@@ -51,7 +51,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Bu ay oyuncak almak için erken diye düşünebilirsiniz. Ama yatağımın üzerine takacağınız bir dönence hem çok hoşuma gidecek hem de nörolojik gelişimimi hızlandıracaktır. Dönence seçerken ışıklı olmayan, kumaş veya örme bir dönence seçmeniz yerinde olacaktır. Dönenceyi asarken ona ulaşamamam için en ez 15-20 cm uzağa asmanız yerinde olacaktır. "
+                android:text="Bu ayda renkli, sesli ve belki ışıklı toplar onlara ulaşmam açısından ben motive edecek, kaba ve ince motor gelişimimi hızlandıracaktır. Büyük ahşap bloklar, ahşap oyuncaklar ilgimi çeken oyuncaklardandır. Sesli, müzikli elektronik oyuncaklar bu ayda beni çok eğlendiren oyuncaklardandır. Bu dönemde bebeklerde sebep sonuç ilişkisi kavramı gelişmiştir. Düğmesine her bastığımda ses çıkaran bir oyuncak piyano veya ışığı yanan bir oyuncak çok hoşuma gidecektir. Bazen sadece evdeki plastik tabaklar ve kaşık bana çok keyif veren bir enstrüman halini alabilir. "
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>

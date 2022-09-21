@@ -51,7 +51,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Bu ay oyuncak almak için erken diye düşünebilirsiniz. Ama yatağımın üzerine takacağınız bir dönence hem çok hoşuma gidecek hem de nörolojik gelişimimi hızlandıracaktır. Dönence seçerken ışıklı olmayan, kumaş veya örme bir dönence seçmeniz yerinde olacaktır. Dönenceyi asarken ona ulaşamamam için en ez 15-20 cm uzağa asmanız yerinde olacaktır. "
+                android:text="Çıngırak: renkli bir çıngırak, artık tutma becerisin kazandığımdan dolayı benim için hem bir eğlence aracı hem de ince motor becerilerimi geliştirecek bir araçtır. Çıngırakla oynamak, sallarken sürekli çıgırağa baktığım için görme koordinasyonum için de faydalı olacaktır. Yüzümü görebileceğim bir ayna, ses çıkarırken yüzümü, dudaklarımı görmemi sağlayacaktır. Bu da nörolojik gelişimime faydalı olacaktır. Yine değişik dokunsal materyallerden yapılmış oyuncaklar dokunma duyumu harekete geçirecektir. "
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>

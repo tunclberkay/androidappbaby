@@ -51,7 +51,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Bu ay oyuncak almak için erken diye düşünebilirsiniz. Ama yatağımın üzerine takacağınız bir dönence hem çok hoşuma gidecek hem de nörolojik gelişimimi hızlandıracaktır. Dönence seçerken ışıklı olmayan, kumaş veya örme bir dönence seçmeniz yerinde olacaktır. Dönenceyi asarken ona ulaşamamam için en ez 15-20 cm uzağa asmanız yerinde olacaktır. "
+                android:text="Bu ayda olduğu gibi 1 yaş sonrası da eğitici oyuncaklar hem eğlenerek zaman geçirmeme hem de öğrenmeme yardımcı olacaktır. Legolar, küpler, tak çıkar oyuncaklar bu ay için de keyifle oynayacağım oyuncaklardır. Ev eşyaları ile -mış gibi yapma oyunu oynayabiliriz. Böylece plastik tabaklar çok güzel bir davula, bardaklar arabaya dönmüş olacaktır.  Bir yaşından sonra oyuncak seçerken oyuncağın üzerinde hangi yaşa uygun oyuncak olduğunu kontrol ederek seçim yapmanız doğru olacaktır. "
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>

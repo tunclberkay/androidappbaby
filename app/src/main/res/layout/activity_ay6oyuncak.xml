@@ -51,7 +51,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Bu ay oyuncak almak için erken diye düşünebilirsiniz. Ama yatağımın üzerine takacağınız bir dönence hem çok hoşuma gidecek hem de nörolojik gelişimimi hızlandıracaktır. Dönence seçerken ışıklı olmayan, kumaş veya örme bir dönence seçmeniz yerinde olacaktır. Dönenceyi asarken ona ulaşamamam için en ez 15-20 cm uzağa asmanız yerinde olacaktır. "
+                android:text="Geçen ay olduğu gibi bu ay da renkli resimli kitaplar ilgimi çeker. Birlikte kitapları ve dergileri incelemek çok keyifli olacaktır. Varlıkları gösterip isimlerini söylemeniz, resimler hakkında konuşmanız dil gelişimimi kolaylaştıracaktır. Bazen bu konuşmalara ben de katılabilirim. Bu aylarda  hala parmak kuklaları ile yaptığınız canlandırmalar, söylediğiniz şarkılar ben çok eğlendirecektir. Bu aylarda daha hareketliyimdir. Sürünerek bir yerden diğer yere gidebilirim. Bu dönemde renkli belki ışıklı ve sesli toplar, beni hareket etmeye teşvik edecektir. Bu topları tutup yukarı kaldırdığınız zaman ona ulaşabilmek için gayret ettiğimi göreceksiniz. Bu aylarda müzik çalan, konuşan, şarkı söyleyen ışıklı oyuncaklar, peluş hayvan veya bebekler oynamam için uygun oyuncaklar arasında sayılabilir. Artık oturmaya başladığım için müzikle ve şarkılarla sallandığımı, dans ettiğimi görebilirsiniz. "
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>

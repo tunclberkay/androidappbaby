@@ -48,7 +48,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Birinci ayım dolduğunda doğumda yapılan hepatit B aşımın 2. dozu yapılacak. Hepatit B aşımın son dozu ise 6. ayda yapılacak. Genellikle hepatit B aşısı ateş yapmaz. "
+                android:text=" Bu ay için sağlık bakanlığının rutin aşılama programında aşı bulunmamaktadır. "
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>

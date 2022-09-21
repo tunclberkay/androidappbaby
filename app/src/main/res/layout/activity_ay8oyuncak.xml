@@ -51,7 +51,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Bu ay oyuncak almak için erken diye düşünebilirsiniz. Ama yatağımın üzerine takacağınız bir dönence hem çok hoşuma gidecek hem de nörolojik gelişimimi hızlandıracaktır. Dönence seçerken ışıklı olmayan, kumaş veya örme bir dönence seçmeniz yerinde olacaktır. Dönenceyi asarken ona ulaşamamam için en ez 15-20 cm uzağa asmanız yerinde olacaktır. "
+                android:text="Tak çıkar halkalar, oyuncaklar el göz koordinasyonumu geliştirmeye yardımcı olurken keyifli zaman geçirmemi de sağlayacak oyuncaklardandır. Dokunulduğunda veya basıldığında konuşan oyuncaklar yine bu dönemde öğrenmeme yardımcı olur. Bunlar dışında aslında evdeki bütün mutfak aletlerinin her biri benim için bir oyuncaktır. Fakat bana aldığınız oyuncakların veya oyuncak yerine kullanılabileceğim cisimlerin güvenli olması, küçük parçalara ayrılmaması, kolay kopmaması çok önemlidir."
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>

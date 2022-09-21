@@ -48,7 +48,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Birinci ayım dolduğunda doğumda yapılan hepatit B aşımın 2. dozu yapılacak. Hepatit B aşımın son dozu ise 6. ayda yapılacak. Genellikle hepatit B aşısı ateş yapmaz. "
+                android:text="Bu ay Sağlık bakanlığı tarafından yaptırılan aşım yok. Fakat daha önceki aylarda menenjit aşısı (meningokok aşısı) yapılmadı ise bu ayda meningokok aşısına başlanabilir. Menenjit enfeksiyonu ve meningokok aşıları hakkında detaylı bilgiyi bölüm sonunda bulabilirsiniz."
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>

@@ -48,7 +48,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Birinci ayım dolduğunda doğumda yapılan hepatit B aşımın 2. dozu yapılacak. Hepatit B aşımın son dozu ise 6. ayda yapılacak. Genellikle hepatit B aşısı ateş yapmaz. "
+                android:text="Bu ayda DBT (Difteri-Boğmaca-Tetanoz), hemofilus influenza, çocuk felci (karma aşı) ve pnömokok (zatürre) için aşı olacağım. Aşı kartımı da muhakkak birlikte götürün ve olduğum aşıları kaydettirin. Ayrıca doktorum ile konuşarak bu ayda Rotavirus aşısının 2. dozunu yaptırabilirsiniz. Menenjit aşı takvimimdeki doz bu aya denk geliyorsa, menenjit aşım yapılacak. Bu ayda yapılacak olan karma aşım genellikle ateş yapmayacaktır. Tabii ki bazı bebeklerde bu durum farklılık gösterebilir. Eğer aşı sonrası ateşim olursa, ateşimi mümkünse koltuk altımdan ölçün. Eğer ateşim 38 derece üzerinde ise ateş düşürücü verebilirsiniz. Ama ateşim çok fazla yükseliyor, ateş düşürücüler ile düşürülemiyor veya bilincimde bozukluklar oluşuyor ise mutlaka çocuk doktorumla görüşmelisiniz. Aşıdan hemen sonra aşı yapılan yerde kızarıklık ve şişlik olabilir bu çoğunlukla bir aşı reaksiyonudur. Aşı yapılmış yerin üzerine, soğuk su emdirilmiş bir bez veya beze sarılmış bir buz aküsü günde 3 defa 15 dakika koyulduğu taktirde bu reaksiyon kısa sürede geçecektir. Aşı yapıldıktan 1-2 gün sonra ortaya çıkan kızarkılık ve ısı artışı durumunda ise akla enfeksiyon gelmeli ve mutlaka çocuk doktoru ile görüşülmelidir. "
                 android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>
