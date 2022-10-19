@@ -14,7 +14,7 @@
 
     <item
         android:id="@+id/about"
-        android:title="Kullanıcı"
+        android:title="Kilo-Boy Hesaplama"
         android:icon="@drawable/ic_baseline_person_24"/>
 
 </menu>
