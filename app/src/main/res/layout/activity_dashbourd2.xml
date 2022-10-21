@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1e1d1d"
+    android:background="#add8e6"
     tools:context=".Dashbourd">
 
 
@@ -15,12 +15,13 @@
         android:id="@+id/centerhorizantaline" />
 
     <RelativeLayout
+        android:id="@+id/centerverticalline"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/centerverticalline" />
+        android:layout_centerHorizontal="true" />
 
     <RelativeLayout
+        android:id="@+id/male"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_above="@id/heightlayout"
@@ -28,8 +29,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="35dp"
         android:layout_toStartOf="@id/centerverticalline"
-        android:background="@drawable/malefemalenotfocus"
-        android:id="@+id/male">
+        android:background="@drawable/oval">
 
         <ImageView
             android:layout_width="170px"
@@ -60,6 +60,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/female"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_above="@id/heightlayout"
@@ -67,8 +68,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="35dp"
         android:layout_toEndOf="@id/centerverticalline"
-        android:background="@drawable/malefemalenotfocus"
-        android:id="@+id/female">
+        android:background="@drawable/oval">
 
 
         <ImageView
@@ -109,7 +109,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:layout_toStartOf="@id/centerverticalline"
-        android:background="@drawable/cardbackgroung">
+        android:background="@drawable/oval">
 
 
         <TextView
@@ -138,17 +138,44 @@
 
         </TextView>
 
-        <SeekBar
-            android:id="@+id/seekbarforweight"
-            android:layout_width="match_parent"
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="20dp"
-            android:progressTint="#FF4c4c">
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/plusminus">
 
-        </SeekBar>
+            <ImageView
+                android:id="@+id/decrementweight"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/minus">
+
+            </ImageView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/plusminus">
+
+            <ImageView
+                android:id="@+id/incrementweight"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/add">
+
+            </ImageView>
+
+
+        </RelativeLayout>
 
 
     </RelativeLayout>
@@ -164,7 +191,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:layout_toEndOf="@id/centerverticalline"
-        android:background="@drawable/cardbackgroung">
+        android:background="@drawable/oval">
 
 
         <TextView
@@ -233,10 +260,6 @@
         </RelativeLayout>
 
 
-
-
-
-
     </RelativeLayout>
 
 
@@ -249,7 +272,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="-50dp"
-        android:background="@drawable/cardbackgroung">
+        android:background="@drawable/oval">
 
 
         <TextView
@@ -309,19 +332,20 @@
 
 
     <android.widget.Button
+        android:id="@+id/calculatebmi"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/calculatebmi"
         android:layout_alignParentBottom="true"
-        android:onClick="button8"
-        android:textSize="15sp"
-        android:layout_marginBottom="65dp"
-        android:text="Persantil Hesaplama"
-        android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/buttonbackground"
-        android:textStyle="bold" />
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/kutu2"
+        android:onClick="button8"
+        android:text="Persantil Hesaplama"
+        android:textColor="#6200ee"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
