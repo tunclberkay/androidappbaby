@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
@@ -26,6 +27,7 @@ public class Dashbourd2 extends AppCompatActivity {
     ImageView mincrementage,mincrementweight,mdecrementweight,mdecremantage;
     SeekBar mseekbarforheight;
     RelativeLayout mmale,mfemale;
+
 
 
 
@@ -54,6 +56,7 @@ public class Dashbourd2 extends AppCompatActivity {
         mincrementweight=findViewById(R.id.incrementweight);
         mdecrementweight=findViewById(R.id.decrementweight);
         mseekbarforheight=findViewById(R.id.seekbarforheight);
+
 
         mmale=findViewById(R.id.male);
         mfemale=findViewById(R.id.female);
@@ -210,10 +213,13 @@ public class Dashbourd2 extends AppCompatActivity {
         double ay= Double.parseDouble(age2);
 
         a1 = (boy<48.7 && kilo<3.1 && ay==1);
-        a2 = ((boy>48.8 && boy<52.4) && (kilo>3.2 && kilo<3.8) && ay==2);
-
+        a2 = ((boy>48.8 && boy<50.3) && (kilo>3.2 && kilo<3.8) && ay==1);
+        a3 = ((boy>=50.3 && boy<52.4) && (kilo>3.2 && kilo<3.8) && ay==1);
 
         toplam = kilo + boy ;
+
+
+
 
 
 
@@ -237,10 +243,12 @@ public class Dashbourd2 extends AppCompatActivity {
 
         else if(a1) {
 
-            Intent ıntent = new Intent(getApplicationContext(), ay8beslenme.class);
+            Intent ıntent = new Intent(getApplicationContext(), kiloboy.class);
             startActivity(ıntent);
 
+
         }
+
         else if(a2) {
 
             Intent ıntent = new Intent(getApplicationContext(), ay7asi.class);

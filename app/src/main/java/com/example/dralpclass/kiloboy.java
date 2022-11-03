@@ -37,10 +37,6 @@ public class kiloboy extends AppCompatActivity {
 
 
 
-
-
-
-
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
         bottomNavigationView.setSelectedItemId(R.id.about);
@@ -73,7 +69,7 @@ public class kiloboy extends AppCompatActivity {
 
     }
     public void button9(View view){
-        Intent ıntent = new Intent(getApplicationContext(), Dashbourd2.class);
+        Intent ıntent = new Intent(getApplicationContext(), kiloboytercih.class);
         startActivity(ıntent);
 
 

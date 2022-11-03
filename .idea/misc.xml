@@ -66,13 +66,16 @@
         <entry key="app/src/main/res/layout/activity_ay9beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay9dashbourd.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay9oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_boyhesaplama.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_dashbourd.xml" value="0.3333333333333333" />
-        <entry key="app/src/main/res/layout/activity_dashbourd2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_dashbourd2.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_ekgida.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/activity_hakkimda.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_iletisim.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_kiloboy.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_kiloboytercih.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_kilohesaplama.xml" value="0.16590678824721378" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_whitesound.xml" value="0.1" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.34375" />

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1e1d1d"
+    android:background="#add8e6"
     tools:context=".kiloboy">
 
 
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:background="@drawable/cardbackgroung"
+        android:background="@color/blue"
         android:padding="20dp">
 
 
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="55"
+            android:text="%50 - %75"
             android:textColor="@color/white"
             android:textSize="50sp"
             android:textStyle="bold">
@@ -49,7 +49,7 @@
             android:layout_below="@+id/bmidisplay"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
-            android:text="GENDER"
+            android:text="Persantil Oranınız"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="bold">
@@ -64,8 +64,8 @@
             android:layout_below="@+id/genderdisplay"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
-            android:text="Persantil Oranınız"
-            android:textColor="@color/white"
+            android:text="NORMAL"
+            android:textColor="@android:color/holo_red_dark"
             android:textSize="25sp"
             android:textStyle="bold">
 
@@ -75,21 +75,20 @@
     </RelativeLayout>
 
 
-
     <android.widget.Button
+        android:id="@+id/recalculatebmi"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/recalculatebmi"
         android:layout_below="@+id/contentlayout"
-        android:layout_marginTop="50dp"
-        android:textSize="15sp"
-        android:onClick="button9"
-        android:layout_marginBottom="65dp"
-        android:text="Tekrar Hesapla"
-        android:textColor="@color/white"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/buttonbackground"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/kutu2"
+        android:onClick="button9"
+        android:text="Tekrar Hesapla"
+        android:textColor="#6200ee"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
 

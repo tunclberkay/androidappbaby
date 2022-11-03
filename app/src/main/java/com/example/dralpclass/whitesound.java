@@ -37,7 +37,7 @@ public class whitesound extends AppCompatActivity {
                         return true;
                     case R.id.about:
                         startActivity(new Intent(getApplicationContext()
-                                ,Dashbourd2.class));
+                                ,kiloboytercih.class));
                         overridePendingTransition(0,0);
                         return true;
 
