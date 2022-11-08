@@ -66,6 +66,7 @@
         <entry key="app/src/main/res/layout/activity_ay9beslenme.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay9dashbourd.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay9oyuncak.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_beklemede.xml" value="0.17325227963525835" />
         <entry key="app/src/main/res/layout/activity_boyhesaplama.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_dashbourd.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/activity_dashbourd2.xml" value="0.335" />
@@ -86,6 +87,11 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_soru1.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_soru2.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_soru3.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_soru4.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_soru5.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_soru6.xml" value="0.2028985507246377" />
+        <entry key="app/src/main/res/layout/activity_soru7.xml" value="0.2028985507246377" />
         <entry key="app/src/main/res/layout/activity_whitesound.xml" value="0.1" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.34375" />
         <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.335" />

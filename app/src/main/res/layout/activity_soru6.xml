@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soru1">
+    tools:context=".soru6">
+
 
     <include layout="@layout/toolbar">
 
@@ -15,9 +16,9 @@
         android:id="@+id/bebek"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/onesie"
-        android:layout_marginTop="120dp"
+        android:src="@drawable/baby"
         android:background="@drawable/kutu2"
+        android:layout_marginTop="120dp"
         >
     </ImageView>
 
@@ -29,7 +30,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:text="Bebeklerin vücutlarında en soğuk olan yerleri elleri ve ayaklarıdır. Bu nedenle bebeklerin üşümemesi için doğru bir kıyafet seçimi çok önemlidir."
+        android:text="Emzirme sırasında bebeğin anne sütünü yeterli miktarda alabilmesi için meme başı ve çevresindeki kahverengi kısmı iyi kavraması sağlanmalıdır. Emzirme sırasında yutkunma sesleri ve süt sesi gelmeli, çenesinin hareketli olmasına dikkat edilmelidir."
 
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -47,6 +48,8 @@
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_navigation" />
+
+
 
 
 

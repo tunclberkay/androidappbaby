@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(ıntent);
     }
     public void foto2(View view){
-        Intent ıntent = new Intent(getApplicationContext(), ekgida.class);
+        Intent ıntent = new Intent(getApplicationContext(), beklemede.class);
         startActivity(ıntent);
     }
 }

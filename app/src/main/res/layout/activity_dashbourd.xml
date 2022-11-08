@@ -72,7 +72,7 @@
         android:layout_marginTop="270dp"
         android:onClick="button4"
         android:background="@drawable/round_button"
-        android:text="Soru 3"
+        android:text="Emzik kullanmak ne kadar doğru?"
         android:textColor="@color/white"
         android:textSize="20sp"></android.widget.Button>
 
@@ -84,7 +84,7 @@
         android:layout_centerHorizontal="true"
         android:onClick="button5"
         android:background="@drawable/round_button"
-        android:text="Soru 4"
+        android:text="Tuvalet eğitimine ne zaman başlanmalı?"
         android:textColor="@color/white"
         android:textSize="20sp"></android.widget.Button>
 
@@ -96,7 +96,7 @@
         android:onClick="button6"
         android:layout_centerHorizontal="true"
         android:background="@drawable/round_button"
-        android:text="Soru 5"
+        android:text="Çocuğumun uyku düzeni için nelere dikkat etmeliyim?"
         android:textColor="@color/white"
         android:textSize="20sp"></android.widget.Button>
 
@@ -108,7 +108,7 @@
         android:onClick="button7"
         android:layout_centerHorizontal="true"
         android:background="@drawable/round_button"
-        android:text="Soru 6"
+        android:text="Bebeğim yeterince doyuyor mu? "
         android:textColor="@color/white"
         android:textSize="20sp"></android.widget.Button>
 
@@ -120,7 +120,7 @@
         android:onClick="button8"
         android:layout_centerHorizontal="true"
         android:background="@drawable/round_button"
-        android:text="Soru 7"
+        android:text="Aşıların yan etkisi var mı? "
         android:textColor="@color/white"
         android:textSize="20sp"></android.widget.Button>
 

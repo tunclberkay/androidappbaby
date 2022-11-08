@@ -14,6 +14,24 @@
         android:theme="@style/Theme.Dralpclass"
         tools:targetApi="31">
         <activity
+            android:name=".soru7"
+            android:exported="false" />
+        <activity
+            android:name=".soru6"
+            android:exported="false" />
+        <activity
+            android:name=".soru5"
+            android:exported="false" />
+        <activity
+            android:name=".soru4"
+            android:exported="false" />
+        <activity
+            android:name=".soru3"
+            android:exported="false" />
+        <activity
+            android:name=".beklemede"
+            android:exported="false" />
+        <activity
             android:name=".soru2"
             android:exported="false" />
         <activity

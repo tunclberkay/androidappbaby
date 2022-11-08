@@ -4,20 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soru1">
+    tools:context=".soru3">
 
     <include layout="@layout/toolbar">
 
     </include>
 
-
     <ImageView
         android:id="@+id/bebek"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/onesie"
-        android:layout_marginTop="120dp"
+        android:src="@drawable/pacifier"
         android:background="@drawable/kutu2"
+        android:layout_marginTop="120dp"
         >
     </ImageView>
 
@@ -29,8 +28,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:text="Bebeklerin vücutlarında en soğuk olan yerleri elleri ve ayaklarıdır. Bu nedenle bebeklerin üşümemesi için doğru bir kıyafet seçimi çok önemlidir."
-
+        android:text="Bebeğin ilk aylarında emziğe çok sık alıştırılması anne sütünü alma süresini azaltabilir. Uzmanlar, emzik kullanımını en geç iki yaşına kadar sonlandırılması gerektiğini belirtiyor."
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="23sp">
@@ -47,6 +45,12 @@
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_navigation" />
+
+
+
+
+
+
 
 
 
