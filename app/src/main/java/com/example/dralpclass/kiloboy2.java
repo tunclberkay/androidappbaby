@@ -7,23 +7,27 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import java.util.Random;
-
-public class Dashbourd extends AppCompatActivity {
+public class kiloboy2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashbourd);
+        setContentView(R.layout.activity_kiloboy2);
+
+
+
+
+
+
+
 
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        bottomNavigationView.setSelectedItemId(R.id.dashbourd);
+        bottomNavigationView.setSelectedItemId(R.id.about);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -41,9 +45,7 @@ public class Dashbourd extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.about:
-                        startActivity(new Intent(getApplicationContext()
-                                ,kiloboytercih.class));
-                        overridePendingTransition(0,0);
+
                         return true;
 
 
@@ -52,39 +54,10 @@ public class Dashbourd extends AppCompatActivity {
             }
         });
 
-    }
-    public void button2(View view){
-        Intent ıntent = new Intent(getApplicationContext(), soru1.class);
-        startActivity(ıntent);
 
     }
-    public void button3(View view){
-        Intent ıntent = new Intent(getApplicationContext(), soru2.class);
-        startActivity(ıntent);
-
-    }
-    public void button4(View view){
-        Intent ıntent = new Intent(getApplicationContext(), ay12oyuncak.class);
-        startActivity(ıntent);
-
-    }
-    public void button5(View view){
-        Intent ıntent = new Intent(getApplicationContext(), ay12oyuncak.class);
-        startActivity(ıntent);
-
-    }
-    public void button6(View view){
-        Intent ıntent = new Intent(getApplicationContext(), ay12oyuncak.class);
-        startActivity(ıntent);
-
-    }
-    public void button7(View view){
-        Intent ıntent = new Intent(getApplicationContext(), ay12oyuncak.class);
-        startActivity(ıntent);
-
-    }
-    public void button8(View view){
-        Intent ıntent = new Intent(getApplicationContext(), ay12oyuncak.class);
+    public void button9(View view){
+        Intent ıntent = new Intent(getApplicationContext(), kiloboytercih.class);
         startActivity(ıntent);
 
 

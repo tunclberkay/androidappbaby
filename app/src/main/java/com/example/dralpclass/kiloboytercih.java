@@ -40,7 +40,7 @@ public class kiloboytercih extends AppCompatActivity {
                         return true;
                     case R.id.home:
                         startActivity(new Intent(getApplicationContext()
-                                ,ay1dashbourd.class));
+                                ,MainActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.about:
@@ -100,7 +100,7 @@ public class kiloboytercih extends AppCompatActivity {
         }
         else if(typeofuser.equals("Female")|| typeofuser.equals("Male")){
 
-            Intent ıntent = new Intent(getApplicationContext(), ay12asi.class);
+            Intent ıntent = new Intent(getApplicationContext(), kilohesaplama.class);
             startActivity(ıntent);
 
         }

@@ -5,18 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#add8e6"
-    tools:context=".kiloboy">
-
+    tools:context=".kiloboy4">
 
     <ImageView
-        android:id="@+id/imageview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/contentlayout"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
         android:padding="10dp"
-        android:src="@drawable/crosss">
+        android:id="@+id/imageview"
+        android:layout_above="@+id/contentlayout"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ok">
 
     </ImageView>
 
@@ -34,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="%0 - %3"
+            android:text="%25 - %50"
             android:textColor="@color/white"
             android:textSize="50sp"
             android:textStyle="bold">
@@ -64,7 +63,8 @@
             android:layout_below="@+id/genderdisplay"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
-            android:text="ANORMAL DÜŞÜK"
+            android:textAlignment="center"
+            android:text="NORMAL"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="25sp"
             android:textStyle="bold">
@@ -93,8 +93,6 @@
 
 
 
-
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -104,8 +102,6 @@
         app:itemIconTint="@drawable/selector"
         app:menu="@menu/menu_navigation"
         android:layout_alignParentBottom="true"/>
-
-
 
 
 

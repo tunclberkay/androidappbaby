@@ -74,9 +74,18 @@
         <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_iletisim.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_kiloboy.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_kiloboy2.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_kiloboy3.xml" value="0.16590678824721378" />
+        <entry key="app/src/main/res/layout/activity_kiloboy4.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_kiloboy5.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_kiloboy6.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_kiloboy7.xml" value="0.17325227963525835" />
+        <entry key="app/src/main/res/layout/activity_kiloboy8.xml" value="0.17325227963525835" />
         <entry key="app/src/main/res/layout/activity_kiloboytercih.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_kilohesaplama.xml" value="0.16590678824721378" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_soru1.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_soru2.xml" value="0.17325227963525835" />
         <entry key="app/src/main/res/layout/activity_whitesound.xml" value="0.1" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.34375" />
         <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.335" />
@@ -92,7 +101,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.1" />
+        <option name="scale" value="0.165" />
       </ProjectState>
     </option>
   </component>

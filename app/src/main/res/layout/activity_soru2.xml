@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soru2">
+
+    <include layout="@layout/toolbar">
+
+    </include>
+
+
+    <ImageView
+        android:id="@+id/bebek"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/newborn"
+        android:background="@drawable/kutu2"
+        android:layout_marginTop="120dp"
+        >
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/bebek"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Bebeklerin temiz kalabilmesi için yaz aylarında her gün, mevsim geçişlerinde günaşırı, kış aylarında da haftada 2 kez banyo yaptırılmalıdır."
+
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/blue"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
+
+
+
+
+
+
+</RelativeLayout>

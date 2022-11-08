@@ -42,17 +42,86 @@
 
     <android.widget.Button
         android:id="@+id/button2"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
-        android:background="@drawable/round_button"
-        android:text="TIKLA"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        android:layout_centerVertical="true"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="130dp"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:onClick="button2"
+        android:text="Bebekler Nasıl Giydirilmeli ?"
+        android:textColor="@color/white"
+        android:textSize="20sp"></android.widget.Button>
 
+    <android.widget.Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:onClick="button3"
+        android:text="Göbek bağı düşmeden banyo yaptırılabilir mi?"
+        android:textColor="@color/white"
+        android:textSize="20sp"></android.widget.Button>
 
-    >
-        </android.widget.Button>
+    <android.widget.Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:onClick="button4"
+        android:background="@drawable/round_button"
+        android:text="Soru 3"
+        android:textColor="@color/white"
+        android:textSize="20sp"></android.widget.Button>
+
+    <android.widget.Button
+        android:id="@+id/button5"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="button5"
+        android:background="@drawable/round_button"
+        android:text="Soru 4"
+        android:textColor="@color/white"
+        android:textSize="20sp"></android.widget.Button>
+
+    <android.widget.Button
+        android:id="@+id/button6"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="410dp"
+        android:onClick="button6"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:text="Soru 5"
+        android:textColor="@color/white"
+        android:textSize="20sp"></android.widget.Button>
+
+    <android.widget.Button
+        android:id="@+id/button7"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="480dp"
+        android:onClick="button7"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:text="Soru 6"
+        android:textColor="@color/white"
+        android:textSize="20sp"></android.widget.Button>
+
+    <android.widget.Button
+        android:id="@+id/button8"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:onClick="button8"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:text="Soru 7"
+        android:textColor="@color/white"
+        android:textSize="20sp"></android.widget.Button>
 
 </RelativeLayout>

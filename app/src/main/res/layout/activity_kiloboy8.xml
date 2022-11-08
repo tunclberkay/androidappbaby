@@ -5,17 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#add8e6"
-    tools:context=".kiloboy">
+    tools:context=".kiloboy8">
 
 
     <ImageView
-        android:id="@+id/imageview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/contentlayout"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
         android:padding="10dp"
+        android:id="@+id/imageview"
+        android:layout_above="@+id/contentlayout"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/crosss">
 
     </ImageView>
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="%0 - %3"
+            android:text="%97 ↑"
             android:textColor="@color/white"
             android:textSize="50sp"
             android:textStyle="bold">
@@ -64,7 +64,8 @@
             android:layout_below="@+id/genderdisplay"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
-            android:text="ANORMAL DÜŞÜK"
+            android:text="ANORMAL YÜKSEK"
+            android:textAlignment="center"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="25sp"
             android:textStyle="bold">
@@ -90,9 +91,6 @@
         android:textColor="#6200ee"
         android:textSize="15sp"
         android:textStyle="bold" />
-
-
-
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
