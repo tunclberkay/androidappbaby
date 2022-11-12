@@ -43,9 +43,9 @@
     <android.widget.Button
         android:id="@+id/button2"
         android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="130dp"
+        android:layout_height="60dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
         android:background="@drawable/round_button"
         android:onClick="button2"
         android:text="Bebekler Nasıl Giydirilmeli ?"
@@ -55,7 +55,7 @@
     <android.widget.Button
         android:id="@+id/button3"
         android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/round_button"
@@ -67,7 +67,7 @@
     <android.widget.Button
         android:id="@+id/button4"
         android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="270dp"
         android:onClick="button4"
@@ -79,7 +79,7 @@
     <android.widget.Button
         android:id="@+id/button5"
         android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginTop="340dp"
         android:layout_centerHorizontal="true"
         android:onClick="button5"
@@ -91,7 +91,7 @@
     <android.widget.Button
         android:id="@+id/button6"
         android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginTop="410dp"
         android:onClick="button6"
         android:layout_centerHorizontal="true"
@@ -103,7 +103,7 @@
     <android.widget.Button
         android:id="@+id/button7"
         android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginTop="480dp"
         android:onClick="button7"
         android:layout_centerHorizontal="true"
@@ -115,7 +115,7 @@
     <android.widget.Button
         android:id="@+id/button8"
         android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginTop="550dp"
         android:onClick="button8"
         android:layout_centerHorizontal="true"
