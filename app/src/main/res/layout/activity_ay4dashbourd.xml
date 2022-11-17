@@ -35,9 +35,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="40dp"
-                    android:text="OYUNCAKLAR"
+                    android:text="Oyuncaklar"
                     android:textColor="#ffff"
-                    android:textSize="25dp"
+                    android:textSize="30dp"
                     android:textStyle="bold">
 
                 </TextView>
@@ -80,9 +80,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="40dp"
-                    android:text="AŞILAR"
+                    android:text="Aşılar"
                     android:textColor="#ffff"
-                    android:textSize="25dp"
+                    android:textSize="30dp"
                     android:textStyle="bold">
 
                 </TextView>
@@ -126,9 +126,9 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="40dp"
 
-                    android:text="BESLENME"
+                    android:text="Beslenme"
                     android:textColor="#ffff"
-                    android:textSize="25dp"
+                    android:textSize="30dp"
                     android:textStyle="bold">
 
                 </TextView>

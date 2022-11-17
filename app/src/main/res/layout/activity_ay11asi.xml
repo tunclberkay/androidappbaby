@@ -33,11 +33,11 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/kutu4"
                 android:fontFamily="sans-serif-black"
-                android:text="AŞILAR"
+                android:text="Beslenme"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:background="@drawable/kutu4"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 

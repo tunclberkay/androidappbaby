@@ -182,11 +182,6 @@
     </RelativeLayout>
 
 
-
-
-
-
-
     <android.widget.Button
         android:id="@+id/calculatebmi"
         android:layout_width="match_parent"
@@ -198,6 +193,7 @@
         android:background="@drawable/kutu2"
         android:onClick="button8"
         android:text="Persantil Hesaplama"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#6200ee"
         android:textSize="15sp"
         android:textStyle="bold"

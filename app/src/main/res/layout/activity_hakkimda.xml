@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:layout_marginTop="10dp"
-                android:text="HAKKIMDA"
+                android:text="Hakkımda"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:background="@drawable/kutu4"

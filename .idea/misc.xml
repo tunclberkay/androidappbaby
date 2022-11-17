@@ -32,7 +32,7 @@
         <entry key="app/src/main/res/layout/activity_ay12oyuncak.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay1asi.xml" value="0.34375" />
         <entry key="app/src/main/res/layout/activity_ay1beslenme.xml" value="0.34375" />
-        <entry key="app/src/main/res/layout/activity_ay1dashbourd.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_ay1dashbourd.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_ay1oyuncak.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_ay2asi.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay2beslenme.xml" value="0.35625" />
@@ -67,11 +67,11 @@
         <entry key="app/src/main/res/layout/activity_ay9dashbourd.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_ay9oyuncak.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_beklemede.xml" value="0.17325227963525835" />
-        <entry key="app/src/main/res/layout/activity_boyhesaplama.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_boyhesaplama.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_dashbourd.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/activity_dashbourd2.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_ekgida.xml" value="0.23958333333333334" />
-        <entry key="app/src/main/res/layout/activity_hakkimda.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_hakkimda.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_iletisim.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_kiloboy.xml" value="0.335" />
@@ -95,6 +95,7 @@
         <entry key="app/src/main/res/layout/activity_whitesound.xml" value="0.1" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.34375" />
         <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.335" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.158" />
       </map>
     </option>
   </component>
@@ -107,7 +108,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.165" />
+        <option name="scale" value="0.2028985507246377" />
       </ProjectState>
     </option>
   </component>

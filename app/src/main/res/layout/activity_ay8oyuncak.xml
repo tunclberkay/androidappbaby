@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/kutu4"
                 android:fontFamily="sans-serif-black"
-                android:text="OYUNCAKLAR"
+                android:text="Oyuncaklar"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"

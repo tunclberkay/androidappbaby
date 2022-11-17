@@ -11,31 +11,42 @@
 
     </include>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:orientation="vertical" >
+
 
     <ImageView
         android:id="@+id/bebek"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:src="@drawable/zzz"
-        android:background="@drawable/kutu2"
-        android:layout_marginTop="120dp"
-        >
-    </ImageView>
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_below="@id/bebek"
+        android:layout_height="303dp"
         android:layout_marginTop="35dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:text="Bebeğin yatağına yarı uyku halinde bırakılması ve kendi kendine uyumayı öğrenmesi sağlanmalıdır. Gece boyunca uykusunun hafiflediği ve derinleştiği zamanlar olabilir. Bu nedenle her hareketi, “uyandı” şeklinde yorumlanmamalıdır. "
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:textSize="23sp">
+        app:srcCompat="@drawable/zzz" />
 
-    </TextView>
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:text="Bebeğin yatağına yarı uyku halinde bırakılması ve kendi kendine uyumayı öğrenmesi sağlanmalıdır. Gece boyunca uykusunun hafiflediği ve derinleştiği zamanlar olabilir. Bu nedenle her hareketi, “uyandı” şeklinde yorumlanmamalıdır. "
+            android:layout_marginBottom="40dp"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

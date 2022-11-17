@@ -13,31 +13,42 @@
     </include>
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:orientation="vertical" >
+
     <ImageView
         android:id="@+id/bebek"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:src="@drawable/vaccination"
-        android:background="@drawable/kutu2"
-        android:layout_marginTop="120dp"
-        >
-    </ImageView>
+        android:layout_height="303dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/vaccination" />
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_below="@id/bebek"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:text="Bütün ilaç ve aşıların yan etkileri olabilir. Bu etkiler hafif veya ciddi düzeyde görülebilir. Ağrı, ateş ve aşının yapıldığı yerde kızarıklık gibi hafif yan etkiler daha sık görülür. Ciddi yan etkiler ise nadiren ortaya çıkmaktadır. Tüm çocuklar aşı öncesi risk faktörleri açısından değerlendirilmelidir. "
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:text="Bütün ilaç ve aşıların yan etkileri olabilir. Bu etkiler hafif veya ciddi düzeyde görülebilir. Ağrı, ateş ve aşının yapıldığı yerde kızarıklık gibi hafif yan etkiler daha sık görülür. Ciddi yan etkiler ise nadiren ortaya çıkmaktadır. Tüm çocuklar aşı öncesi risk faktörleri açısından değerlendirilmelidir. "
+            android:layout_marginBottom="40dp"
+            android:textSize="25sp" />
 
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:textSize="23sp">
 
-    </TextView>
+    </LinearLayout>
+
+
+    </ScrollView>
+
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
