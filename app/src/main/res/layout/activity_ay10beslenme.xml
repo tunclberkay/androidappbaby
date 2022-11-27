@@ -50,7 +50,7 @@
                 android:fontFamily="sans-serif-black"
                 android:gravity="fill"
                 android:text="Hala anne sütü veya formül mama benim için esas besin kaynağıdır. Bu ayda toplam 3 bebek kavanozu veya 3 çay bardağı ek gıda almaya devam ederim. Bunu da 3 öğüne bölerek almam gerekir. Artık gece beslenme ihtiyacım yoktur. Akşam son öğünümü 19:00-20:00 arası aldıktan sonra, siz yatmadan uyurken bir defa biberon maması veya anne sütü alırım (rüya öğünü) ve sabaha kadar yeniden beslenmeye ihtiyaç duymam. Bu dönemde işler iyi giderken gece beslenme ihtiyacım başlarsa, öncelikle gündüz ki beslenmelerimde her hangi bir sıkıntı varmıdır diye kontrol edilmelidir."
-                android:textColor="@color/black"
+                android:textColor="#2B2525"
                 android:textSize="22sp" />
         </LinearLayout>
 

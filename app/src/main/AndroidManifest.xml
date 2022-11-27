@@ -221,9 +221,6 @@
             android:name=".whitesound"
             android:exported="false" />
         <activity
-            android:name=".ekgida"
-            android:exported="false" />
-        <activity
             android:name=".iletisim"
             android:exported="false" />
         <activity

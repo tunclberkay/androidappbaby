@@ -27,8 +27,9 @@
     <ImageView
         android:id="@+id/bebek"
         android:layout_width="match_parent"
-        android:layout_height="303dp"
+        android:layout_height="250dp"
         android:layout_marginTop="35dp"
+        android:background="@drawable/kutu2"
         app:srcCompat="@drawable/pacifier" />
 
 
@@ -37,12 +38,12 @@
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="35dp"
             android:textColor="@color/black"
             android:fontFamily="sans-serif-black"
             android:text="Bebeğin ilk aylarında emziğe çok sık alıştırılması anne sütünü alma süresini azaltabilir. Uzmanlar, emzik kullanımını en geç iki yaşına kadar sonlandırılması gerektiğini belirtiyor."
             android:layout_marginBottom="40dp"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
 

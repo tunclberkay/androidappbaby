@@ -21,7 +21,7 @@ public class ay5dashbourd extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        bottomNavigationView.setSelectedItemId(R.id.home);
+        bottomNavigationView.setSelectedItemId(R.id.black);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -63,5 +63,12 @@ public class ay5dashbourd extends AppCompatActivity {
     public void foto5(View view){
         Intent ıntent = new Intent(getApplicationContext(), ay5beslenme.class);
         startActivity(ıntent);
+    }
+
+    public void foto9(View view){
+        Intent ıntent = new Intent(getApplicationContext(), homepage.class);
+        startActivity(ıntent);
+
+
     }
 }

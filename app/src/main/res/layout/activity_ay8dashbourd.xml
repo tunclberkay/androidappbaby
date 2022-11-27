@@ -6,20 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".ay8dashbourd">
 
+    <include
+        android:id="@+id/include3"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </include>
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toBottomOf="@+id/include3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
 
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            app:cardCornerRadius="40dp"
             android:layout_margin="20dp"
             android:layout_marginTop="40dp"
-            >
+            app:cardCornerRadius="40dp">
 
 
             <RelativeLayout
@@ -46,12 +57,11 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="120dp"
+                    android:layout_alignParentRight="true"
                     android:maxHeight="100dp"
-                    android:src="@drawable/toys"
-                    android:layout_alignParentRight="true">
+                    android:src="@drawable/toys">
 
                 </ImageView>
-
 
 
             </RelativeLayout>
@@ -62,10 +72,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            app:cardCornerRadius="40dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="0dp">
+            app:cardCornerRadius="40dp">
 
 
             <RelativeLayout
@@ -98,7 +108,6 @@
                 </ImageView>
 
 
-
             </RelativeLayout>
 
 
@@ -107,10 +116,10 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            app:cardCornerRadius="40dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="20dp">
+            app:cardCornerRadius="40dp">
 
 
             <RelativeLayout
@@ -144,18 +153,13 @@
                 </ImageView>
 
 
-
             </RelativeLayout>
 
 
         </androidx.cardview.widget.CardView>
 
 
-
-
     </LinearLayout>
-
-
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

@@ -39,7 +39,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                 />
 
             <TextView
                 android:id="@+id/textView10"
@@ -49,7 +50,7 @@
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
                 android:text="Bu ay için sağlık bakanlığının rutin aşılama programında aşı bulunmamaktadır. "
-                android:textColor="@color/black"
+                android:textColor="#2B2525"
                 android:textSize="22sp" />
         </LinearLayout>
 

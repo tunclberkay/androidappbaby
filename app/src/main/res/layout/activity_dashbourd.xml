@@ -11,10 +11,10 @@
     <LinearLayout
         android:id="@+id/deneme"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:padding="20dp"
+        android:layout_height="110dp"
         android:background="@drawable/kutu3"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="20dp">
 
         <TextView
             android:id="@+id/textView6"
@@ -42,7 +42,7 @@
 
     <android.widget.Button
         android:id="@+id/button2"
-        android:layout_width="350dp"
+        android:layout_width="390dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
@@ -51,84 +51,84 @@
         android:text="Bebekler Nasıl Giydirilmeli ?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
-        android:textSize="20sp"></android.widget.Button>
+        android:textSize="17sp"></android.widget.Button>
 
     <android.widget.Button
         android:id="@+id/button3"
-        android:layout_width="350dp"
+        android:layout_width="390dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="210dp"
         android:background="@drawable/round_button"
         android:onClick="button3"
         android:text="Göbek bağı düşmeden banyo yaptırılabilir mi?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
-        android:textSize="20sp"></android.widget.Button>
+        android:textSize="17sp"></android.widget.Button>
 
     <android.widget.Button
         android:id="@+id/button4"
-        android:layout_width="350dp"
+        android:layout_width="390dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="290dp"
         android:background="@drawable/round_button"
         android:onClick="button4"
         android:text="Emzik kullanmak ne kadar doğru?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
-        android:textSize="20sp"></android.widget.Button>
+        android:textSize="17sp"></android.widget.Button>
 
     <android.widget.Button
         android:id="@+id/button5"
-        android:layout_width="350dp"
+        android:layout_width="390dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="370dp"
         android:background="@drawable/round_button"
         android:onClick="button5"
         android:text="Tuvalet eğitimine ne zaman başlanmalı?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
-        android:textSize="20sp"></android.widget.Button>
+        android:textSize="17sp"></android.widget.Button>
 
     <android.widget.Button
         android:id="@+id/button6"
-        android:layout_width="350dp"
+        android:layout_width="390dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="450dp"
         android:background="@drawable/round_button"
         android:onClick="button6"
         android:text="Çocuğumun uyku düzeni için nelere dikkat etmeliyim?"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
-        android:textSize="20sp"></android.widget.Button>
+        android:textSize="17sp"></android.widget.Button>
 
     <android.widget.Button
         android:id="@+id/button7"
-        android:layout_width="350dp"
+        android:layout_width="390dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="530dp"
         android:background="@drawable/round_button"
         android:onClick="button7"
         android:text="Bebeğim yeterince doyuyor mu? "
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
-        android:textSize="20sp"></android.widget.Button>
+        android:textSize="17sp"></android.widget.Button>
 
     <android.widget.Button
         android:id="@+id/button8"
-        android:layout_width="350dp"
+        android:layout_width="390dp"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="610dp"
         android:background="@drawable/round_button"
         android:onClick="button8"
         android:text="Aşıların yan etkisi var mı? "
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
-        android:textSize="20sp"></android.widget.Button>
+        android:textSize="17sp"></android.widget.Button>
 
 </RelativeLayout>

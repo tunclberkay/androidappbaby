@@ -20,7 +20,7 @@ public class iletisim extends AppCompatActivity {
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        //bottomNavigationView.setSelectedItemId(R.id.home);
+        bottomNavigationView.setSelectedItemId(R.id.black);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -41,6 +41,7 @@ public class iletisim extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext()
                                 ,kiloboytercih.class));
                         overridePendingTransition(0,0);
+
                         return true;
 
 

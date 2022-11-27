@@ -51,8 +51,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:fontFamily="sans-serif-black"
+                android:textColor="#2B2525"
                 android:text="Sizin beni sürekli gözlemlemeniz şartıyla bana vereceğiniz, basit bir kalem ve kağıt benim için çok güzel bir oyuncak olacaktır. Belki çok mükemmel resimler yapamayabilirim ama kağıda yapacağım karalamalar, el göz koordinasyonum ve motor gelişimim açısından çok faydalı olacaktır.          Geçen ayda olduğu gibi ahşap yapbozlar, tak çıkarlar bu ay için de benim için uygun oyuncaklar olacaktır.          Toplar bu ayda keyifle oynayabileceğim oyuncaklardır. Artık bana attığınız topu çok daha iyi tutarım ve direktiflerinizi anlayarak size atabilirim. Ses çıkaran, müzik çalan, basmalı, çekmeli elektronik oyuncaklar bu ayda keyifle zaman geçirmeme yardımcı olacak oyuncaklardır. "
-                android:textColor="@color/black"
                 android:textSize="22sp" />
         </LinearLayout>
 
