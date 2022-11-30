@@ -3,6 +3,7 @@ package com.example.dralpclass;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -14,18 +15,17 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.text.DecimalFormat;
+import java.util.Locale;
+
 public class kilohesaplama extends AppCompatActivity {
 
     TextView mcurrentage,mcurrentweight;
     ImageView mincrementage,mincrementweight,mdecrementweight,mdecremantage;
 
     RelativeLayout mmale,mfemale;
-
     double intweight=1.0;
     int intage=0;
-    int currentprogress;
-    String mintprogress="0";
-    String typeofuser="0";
     String weight2="0";
     String age2="0";
 
@@ -49,23 +49,28 @@ public class kilohesaplama extends AppCompatActivity {
 
 
         mincrementweight.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("DefaultLocale")
             @Override
             public void onClick(View view) {
-                intweight=intweight+0.1;
-                weight2=String.format("%.2f",intweight);
+                intweight=intweight+0.10;
+                DecimalFormat df = new DecimalFormat("#.##");
+                String weight2 = df.format(intweight);
+                //weight2=String.valueOf(intweight);
                 mcurrentweight.setText(weight2);
             }
         });
 
         mdecrementweight.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("DefaultLocale")
             @Override
             public void onClick(View view) {
-                intweight=intweight-0.1;
-                weight2=String.format("%.2f",intweight);
+                intweight=intweight-0.10;
+                DecimalFormat df = new DecimalFormat("#.##");
+                String weight2 = df.format(intweight);
+                //weight2=String.valueOf(intweight);
                 mcurrentweight.setText(weight2);
             }
         });
-
 
         mincrementage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,17 +80,36 @@ public class kilohesaplama extends AppCompatActivity {
                 age2=String.valueOf(intage);
                 mcurrentage.setText(age2);
 
+                if(intage==13){
+                    intage=intage-1;
+                    age2=String.valueOf(intage);
+                    mcurrentage.setText(age2);
+                }
+
 
             }
-        });
 
+        });
         mdecremantage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 intage=intage-1;
                 age2=String.valueOf(intage);
                 mcurrentage.setText(age2);
+
+                if(intage==-1){
+                    intage=intage+1;
+                    age2=String.valueOf(intage);
+                    mcurrentage.setText(age2);
+
+                }
+
+
             }
+
+
+
         });
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
@@ -120,13 +144,7 @@ public class kilohesaplama extends AppCompatActivity {
     }
     public void button8(View view){
 
-
-        boolean a1,a2,a3,a4,a5,a6,a7,a8;
-        boolean b1,b2,b3,b4,b5,b6,b7,b8;
-        boolean c1,c2,c3,c4,c5,c6,c7,c8;
-        boolean d1,d2,d3,d4,d5,d6,d7,d8;
-        boolean e1,e2,e3,e4,e5,e6,e7,e8;
-        boolean f1,f2,f3,f4,f5,f6,f7,f8;
+        boolean a1,a2,a3,a4,a5,a6,a7,a8,b1,b2,b3,b4,b5,b6,b7,b8,c1,c2,c3,c4,c5,c6,c7,c8,d1,d2,d3,d4,d5,d6,d7,d8,e1,e2,e3,e4,e5,e6,e7,e8,f1,f2,f3,f4,f5,f6,f7,f8;
         boolean g1,g2,g3,g4,g5,g6,g7,g8;
         boolean h1,h2,h3,h4,h5,h6,h7,h8;
         boolean k1,k2,k3,k4,k5,k6,k7,k8;
@@ -272,9 +290,6 @@ public class kilohesaplama extends AppCompatActivity {
         n8 =(boy>11.8);
 
 
-
-
-
         age1=(intage==1);
         age2=(intage==2);
         age3=(intage==3);
@@ -295,9 +310,13 @@ public class kilohesaplama extends AppCompatActivity {
         {
             Toast.makeText(getApplicationContext(),"Kilosunu Giriniz",Toast.LENGTH_SHORT).show();
         }
-        else if(intage==0 || intage <0)
+        else if(intage==0 )
         {
             Toast.makeText(getApplicationContext(),"Kaç aylık olduğunu giriniz",Toast.LENGTH_SHORT).show();
+        }
+        else if(intage<0  || intage>12)
+        {
+            Toast.makeText(getApplicationContext(),"Lütfen ay değerini 0-12 aralığında Seçiniz",Toast.LENGTH_SHORT).show();
         }
 
         else if(age1) {
@@ -764,14 +783,14 @@ public class kilohesaplama extends AppCompatActivity {
             }
             else if (k7){
 
-                Intent ıntent = new Intent(getApplicationContext(), kiloboy7.class);
-                startActivity(ıntent);
+                Intent intent = new Intent(getApplicationContext(), kiloboy7.class);
+                startActivity(intent);
 
             }
             else if (k8){
 
-                Intent ıntent = new Intent(getApplicationContext(), kiloboy8.class);
-                startActivity(ıntent);
+                Intent intent = new Intent(getApplicationContext(), kiloboy8.class);
+                startActivity(intent);
 
             }
 

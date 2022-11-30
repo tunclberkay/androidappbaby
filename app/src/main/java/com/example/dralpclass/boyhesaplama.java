@@ -73,6 +73,12 @@ public class boyhesaplama extends AppCompatActivity {
                 age2=String.valueOf(intage);
                 mcurrentage.setText(age2);
 
+                if(intage==13){
+                    intage=intage-1;
+                    age2=String.valueOf(intage);
+                    mcurrentage.setText(age2);
+                }
+
 
             }
         });
@@ -83,6 +89,13 @@ public class boyhesaplama extends AppCompatActivity {
                 intage=intage-1;
                 age2=String.valueOf(intage);
                 mcurrentage.setText(age2);
+
+                if(intage==-1){
+                    intage=intage+1;
+                    age2=String.valueOf(intage);
+                    mcurrentage.setText(age2);
+
+                }
             }
         });
 
