@@ -34,7 +34,7 @@ public class ay5asi extends AppCompatActivity {
                         return true;
                     case R.id.home:
                         startActivity(new Intent(getApplicationContext()
-                                ,ay1dashbourd.class));
+                                ,SplashActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.about:

@@ -35,7 +35,7 @@ public class ay12dashbourd extends AppCompatActivity {
                         return true;
                     case R.id.home:
                         startActivity(new Intent(getApplicationContext()
-                                ,MainActivity.class));
+                                ,SplashActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.about:

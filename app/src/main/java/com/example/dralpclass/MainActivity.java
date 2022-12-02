@@ -19,49 +19,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-
-        bottomNavigationView.setSelectedItemId(R.id.home);
-
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-
-                switch (menuItem.getItemId()){
-                    case R.id.dashbourd:
-                        startActivity(new Intent(getApplicationContext()
-                                ,Dashbourd.class));
-                        overridePendingTransition(0,0);
-                        return true;
-                    case R.id.home:
-                        return true;
-                    case R.id.about:
-                        startActivity(new Intent(getApplicationContext()
-                                ,kiloboytercih.class));
-                        overridePendingTransition(0,0);
-                        return true;
-
-
-                }
-                return false;
+    Thread timerThread = new Thread(){
+        public void run(){
+            try{
+                sleep(1500);
+            }catch(InterruptedException e){
+                e.printStackTrace();
+            }finally{
+                Intent intent = new Intent(MainActivity.this, SplashActivity.class);
+                startActivity(intent);
             }
-        });
+        }
+    };
+        timerThread.start();
+                }
 
-    }
-    public void foto1(View view){
-        Intent ıntent = new Intent(getApplicationContext(), homepage.class);
-        startActivity(ıntent);
-    }
-    public void foto4(View view){
-        Intent ıntent = new Intent(getApplicationContext(), iletisim.class);
-        startActivity(ıntent);
-    }
-    public void foto3(View view){
-        Intent ıntent = new Intent(getApplicationContext(), whitesound.class);
-        startActivity(ıntent);
-    }
-    public void foto2(View view){
-        Intent ıntent = new Intent(getApplicationContext(), beklemede.class);
-        startActivity(ıntent);
-    }
-}
+@Override
+protected void onPause() {
+        super.onPause();
+        finish();
+        }
+        }
