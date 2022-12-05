@@ -4,8 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -46,6 +50,32 @@ public class whitesound extends AppCompatActivity {
                 return false;
             }
         });
+
+        VideoView videoView =findViewById(R.id.videoView);
+        String videoPath ="android.resource://" + getPackageName() + "/" + R.raw.babyvideo;
+        Uri uri = Uri.parse(videoPath);
+        videoView.setVideoURI(uri);
+        videoView.start();
+
+        MediaController mediaController = new MediaController(this);
+        videoView.setMediaController(mediaController);
+        mediaController.setAnchorView(videoView);
+
+
+
+
+
+
+
+    }
+    public void foto9(View view){
+        Intent ıntent = new Intent(getApplicationContext(), SplashActivity.class);
+        startActivity(ıntent);
+
+
+
+
+
 
 
 
