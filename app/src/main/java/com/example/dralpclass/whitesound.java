@@ -45,7 +45,6 @@ public class whitesound extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
 
-
                 }
                 return false;
             }
@@ -60,8 +59,6 @@ public class whitesound extends AppCompatActivity {
         MediaController mediaController = new MediaController(this);
         videoView.setMediaController(mediaController);
         mediaController.setAnchorView(videoView);
-
-
 
 
 
